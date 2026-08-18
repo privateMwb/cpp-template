@@ -1,0 +1,4 @@
+sources:
+  "1.0.0":
+    url: "https://github.com/privateMwb/REPO/archive/refs/tags/v1.0.0.tar.gz"
+    sha256: "TODO: replace with the real sha256 of the release tarball above"
