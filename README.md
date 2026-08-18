@@ -99,14 +99,14 @@
   what it avoids compared to the obvious naive approach>.
 - **<Another concrete decision>** — <same pattern>.
 
-<div align="right"><a href="#-table-of-contents">↑ back to top</a></div>
+<div align="right"><a href="#-table-of-contents"><img src="assets/back-to-top.svg" alt="Back to top" height="28"></a></div>
 
 ## <a id="requirements"></a>📋 Requirements
 
 - A C++23-conformant compiler (tested: Clang, GCC, MSVC)
 - CMake 3.20+
 
-<div align="right"><a href="#-table-of-contents">↑ back to top</a></div>
+<div align="right"><a href="#-table-of-contents"><img src="assets/back-to-top.svg" alt="Back to top" height="28"></a></div>
 
 ## <a id="installation"></a>📦 Installation
 
@@ -135,7 +135,7 @@ target_link_libraries(your_target PRIVATE <ProjectName>::<ProjectName>)
 > but not yet published to the public registries. This section will be
 > updated once they are.
 
-<div align="right"><a href="#-table-of-contents">↑ back to top</a></div>
+<div align="right"><a href="#-table-of-contents"><img src="assets/back-to-top.svg" alt="Back to top" height="28"></a></div>
 
 ## <a id="quick-start"></a>🚀 Quick Start
 
@@ -153,7 +153,7 @@ int main() {
 }
 ```
 
-<div align="right"><a href="#-table-of-contents">↑ back to top</a></div>
+<div align="right"><a href="#-table-of-contents"><img src="assets/back-to-top.svg" alt="Back to top" height="28"></a></div>
 
 ## <a id="project-structure"></a>🗂️ Project Structure
 
@@ -259,7 +259,8 @@ int main() {
 │
 ├── assets/
 │   ├── banner.svg
-│   └── divider.svg
+│   ├── divider.svg
+│   └── back-to-top.svg
 │
 ├── .clang-format
 ├── .clang-tidy
@@ -272,7 +273,7 @@ int main() {
 
 </details>
 
-<div align="right"><a href="#-table-of-contents">↑ back to top</a></div>
+<div align="right"><a href="#-table-of-contents"><img src="assets/back-to-top.svg" alt="Back to top" height="28"></a></div>
 
 ## <a id="development"></a>🛠️ Development
 
@@ -307,7 +308,7 @@ auto-names its output (`regression_v1.2.0_vs_current.md`/`.json`, etc.).
 See [docs/README.md](docs/README.md) for notes on verifying the vcpkg
 port and Conan recipe locally.
 
-<div align="right"><a href="#-table-of-contents">↑ back to top</a></div>
+<div align="right"><a href="#-table-of-contents"><img src="assets/back-to-top.svg" alt="Back to top" height="28"></a></div>
 
 ## <a id="benchmarks"></a>📊 Benchmarks
 
@@ -323,7 +324,7 @@ full dataset).
 |---|---|---|---|
 | `<operation>` | `<time>` | `<time>` | `<±N%>` |
 
-<div align="right"><a href="#-table-of-contents">↑ back to top</a></div>
+<div align="right"><a href="#-table-of-contents"><img src="assets/back-to-top.svg" alt="Back to top" height="28"></a></div>
 
 ## <a id="documentation"></a>📖 Documentation
 
@@ -331,7 +332,7 @@ Full API reference, generated with Doxygen from `docs/Doxyfile`:
 
 **https://<owner>.github.io/<repo>/**
 
-<div align="right"><a href="#-table-of-contents">↑ back to top</a></div>
+<div align="right"><a href="#-table-of-contents"><img src="assets/back-to-top.svg" alt="Back to top" height="28"></a></div>
 
 ## <a id="contributing"></a>🤝 Contributing
 
@@ -341,7 +342,7 @@ Issues and pull requests are welcome. Before submitting a PR:
 - If you're changing a hot path, run `./build/regression` and mention
   the results in your PR description
 
-<div align="right"><a href="#-table-of-contents">↑ back to top</a></div>
+<div align="right"><a href="#-table-of-contents"><img src="assets/back-to-top.svg" alt="Back to top" height="28"></a></div>
 
 ## <a id="changelog"></a>📝 Changelog
 
@@ -353,5 +354,9 @@ page for version history and release notes.
 MIT — see [LICENSE](LICENSE) for details.
 
 <p align="center">
-  <sub>Built with C++23 · <a href="#-table-of-contents">back to top ↑</a></sub>
+  <sub>Built with C++23</sub>
+</p>
+
+<p align="center">
+  <a href="#-table-of-contents"><img src="assets/back-to-top.svg" alt="Back to top" height="28"></a>
 </p>
