@@ -24,14 +24,14 @@ jobs:
           sudo apt install -y cmake clang ccache
 
       - name: Cache ccache
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: ~/.cache/ccache
           key: ccache-sanitizers-${{ github.sha }}
           restore-keys: ccache-sanitizers-
 
       - name: Cache fetched dependencies
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: build/_deps
           key: deps-sanitizers-${{ hashFiles('tests/google_tests/CMakeLists.txt') }}

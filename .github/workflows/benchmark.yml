@@ -35,14 +35,14 @@ jobs:
           sudo apt install -y cmake clang ccache
 
       - name: Cache ccache
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: ~/.cache/ccache
           key: ccache-benchmark-${{ github.sha }}
           restore-keys: ccache-benchmark-
 
       - name: Cache fetched dependencies
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: build/_deps
           key: deps-benchmark-${{ hashFiles('benchmarks/google_benchmarks/CMakeLists.txt', 'regression/CMakeLists.txt') }}

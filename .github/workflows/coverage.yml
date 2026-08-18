@@ -24,14 +24,14 @@ jobs:
           sudo apt install -y cmake g++ lcov ccache
 
       - name: Cache ccache
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: ~/.cache/ccache
           key: ccache-coverage-${{ github.sha }}
           restore-keys: ccache-coverage-
 
       - name: Cache fetched dependencies
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: build/_deps
           key: deps-coverage-${{ hashFiles('tests/google_tests/CMakeLists.txt') }}

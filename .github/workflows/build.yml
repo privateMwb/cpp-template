@@ -80,14 +80,14 @@ jobs:
       # FetchContent dependency cache below applies on Windows.
       - name: Cache ccache
         if: runner.os != 'Windows'
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: ${{ env.CCACHE_DIR }}
           key: ccache-${{ matrix.os }}-${{ matrix.compiler }}-${{ matrix.build_type }}-${{ github.sha }}
           restore-keys: ccache-${{ matrix.os }}-${{ matrix.compiler }}-${{ matrix.build_type }}-
 
       - name: Cache fetched dependencies
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: build-${{ matrix.compiler }}-${{ matrix.build_type }}/_deps
           key: deps-${{ matrix.os }}-${{ hashFiles('tests/google_tests/CMakeLists.txt') }}

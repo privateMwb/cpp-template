@@ -24,14 +24,14 @@ jobs:
           sudo apt install -y clang-tidy ccache
 
       - name: Cache ccache
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: ~/.cache/ccache
           key: ccache-clang-tidy-${{ github.sha }}
           restore-keys: ccache-clang-tidy-
 
       - name: Cache fetched dependencies
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: build/_deps
           key: deps-clang-tidy-${{ hashFiles('tests/google_tests/CMakeLists.txt') }}
