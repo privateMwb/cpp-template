@@ -270,7 +270,7 @@ ctest --test-dir build
 correctly outranks `v1.9.0`), not alphabetical filename order, and
 auto-names its output (`regression_v1.2.0_vs_current.md`/`.json`, etc.).
 
-See [docs/README.md](docs/README.md) for notes on verifying the vcpkg
+See [packaging/README.md](packaging/README.md) for notes on verifying the vcpkg
 port and Conan recipe locally.
 
 <div align="right"><a href="#-table-of-contents"><img src="assets/back-to-top.svg" alt="Back to top" height="28"></a></div>
