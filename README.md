@@ -175,55 +175,19 @@ int main() {
 │   ├── example_main.cpp
 │   ├── README.md
 │   ├── support/
-│   │   ├── framework.h
-│   │   ├── helpers.h
-│   │   ├── macros.h
-│   │   └── registry.h
 │   └── suite/
-│       ├── README.md
-│       ├── advanced/
-│       ├── integration/
-│       ├── misuse/
-│       ├── patterns/
-│       └── quickstart/
 │
 ├── tests/
 │   ├── CMakeLists.txt
 │   ├── README.md
-│   ├── suite/                        # one file pair per category, shared
-│   │   ├── README.md                 # by both suites below
-│   │   ├── concurrency/
-│   │   ├── integration/
-│   │   ├── lifecycle/
-│   │   ├── regression/
-│   │   └── unit/
 │   ├── custom/                       # the project's own RUN/CHK framework
-│   │   ├── CMakeLists.txt
-│   │   ├── README.md
-│   │   ├── support/
-│   │   └── test_main.cpp
 │   └── google_tests/                 # the same suites, via GoogleTest
-│       ├── CMakeLists.txt
-│       └── README.md
 │
 ├── benchmarks/
 │   ├── CMakeLists.txt
 │   ├── README.md
 │   ├── custom/                       # the project's own BENCH framework
-│   │   ├── CMakeLists.txt
-│   │   ├── README.md
-│   │   ├── bench_main.cpp
-│   │   ├── export.h
-│   │   ├── framework.h
-│   │   ├── helpers.h
-│   │   ├── macros.h
-│   │   ├── registry.h
-│   │   └── suite/
 │   └── google_benchmarks/            # the same suites, via Google Benchmark
-│       ├── CMakeLists.txt
-│       ├── README.md
-│       ├── bench_main.cpp
-│       └── suite/
 │
 ├── regression/                       # compares a benchmark run against
 │   ├── CMakeLists.txt                # a saved baseline snapshot
@@ -247,6 +211,7 @@ int main() {
 │   └── update_package_files.py
 │
 ├── .github/
+│   ├── releases/
 │   ├── workflows/
 │   └── dependabot.yml
 │
