@@ -2,7 +2,7 @@ vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO privateMwb/cpp-template
     REF v1.0.0
-    SHA512 591fa7c9e9d314de44b23e7903391b9d9c5b59ec9721f597713f1e1b0052206cadea255c6131cec7480a1ee6c50c218dc57bc573eeb2c166ec576549dbc6ef3e  # TODO: replace with the real SHA512 of the release tarball above
+    SHA512 b9fd50669b85bf7dad1363235da6baef22aecef639be8ce222d0aa56abf59ccdae3e55d581c89c23c5286b904923dfac4dd76864e3e213cf7f2938edbc0841d4  # TODO: replace with the real SHA512 of the release tarball above
 )
 
 set(VCPKG_PORT_NAME Name)
