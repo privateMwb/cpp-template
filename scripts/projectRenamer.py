@@ -5,9 +5,9 @@ from pathlib import Path
 # Project configuration
 # ============================================================
 
-lowcap = "poolpro"
-highcap = "PoolPro"
-RepoName = "PoolAllocator"
+lowcap = "name"
+highcap = "Name"
+RepoName = "REPO"
 
 
 # ============================================================
@@ -51,9 +51,9 @@ FILENAMES = {
 # ============================================================
 
 REPLACEMENTS = {
-    "cachepro": lowcap,
-    "CachePro": highcap,
-    "LRUCache": RepoName,
+    "name": lowcap,
+    "Name": highcap,
+    "REPO": RepoName,
 }
 
 
